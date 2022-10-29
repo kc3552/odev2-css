@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section{
+    background-color: #efefef;
+    margin-bottom: 2px;
+}
+.section-2.eleman{
+flex-direction: row;
+}
+article{
+
+    background: content-box radial-gradient(skyblue,#75acb5);
+    
+    
+}
+#article-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 255px;
+}
+#article-1 li{
+    align-items: center;
+    list-style-type: none;
+}
+.sol{
+    width: 400px;
+    height: 100px;    
+    margin-right: 2px;
+    border-right: 2px solid white;
+    
+}
+.sol li{
+    padding-top: 3px;
+}
+.orta{ width: 200px;
+    height: 100px;
+    margin-right: 2px;
+    border-right: 2px solid white;
+}
+.orta li{
+    padding-top: 3px;
+}
+.right{ 
+    width: 400px;
+    height: 100px;
+       
+}
+.right-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+.right li{
+    padding-top: 3px;
+}
